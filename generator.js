@@ -6,6 +6,16 @@ module.exports = (api, options, rootOptions) => {
     }
   })
 
+  api.chainWebpack(config=>{
+    config
+      .plugin('html')
+      .tap(args => {
+         //  args[0] contains the plugin's options object
+        // change it to what you need it to be.
+        return args
+      })
+  })
+
   // 删除 vue-cli3 默认目录
   // api.render(files => {
   //   Object.keys(files)
