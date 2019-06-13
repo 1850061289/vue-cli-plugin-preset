@@ -8,6 +8,7 @@
   "configs": {
     "outputDir": "dist_pre",
     "assetsDir": "static",
-    "productionSourceMap": false
+    "productionSourceMap": false,
+    "publicPath": "/"
   }
 }
