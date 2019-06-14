@@ -11,7 +11,7 @@ axios.defaults.transformResponse = [function(data) {
   t.code = +t.code
 
   if(t.code !== 0){
-    this.alert(t.errmsg)
+    alert(t.errmsg)
   }
   return t
 }];
