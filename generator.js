@@ -2,7 +2,9 @@ module.exports = (api, options, rootOptions) => {
   // 项目依赖
   api.extendPackage({
     dependencies: {
-      'axios': '^0.18.0',
+      'axios': '^0.18.0'    
+    },
+    devDependencies: {
       '@vue/cli': '^3.8.2'
     },
     scripts: {
