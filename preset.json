@@ -4,11 +4,5 @@
   "routerHistoryMode": false,
   "plugins": {
     "@vue/cli-plugin-babel": {}
-  },
-  "configs": {
-    "outputDir": "dist_pre",
-    "assetsDir": "static",
-    "productionSourceMap": false,
-    "publicPath": "/"
   }
 }
