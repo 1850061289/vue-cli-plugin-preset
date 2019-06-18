@@ -12,5 +12,7 @@ module.exports = {
 
   outputDir: "dist_pre",
   assetsDir: "static",
-  productionSourceMap: false
+  productionSourceMap: false,
+  publicPath: process.env.VUE_APP_BUILD_MODE === 'PROD' ? 'https://file.kp.wanmengjun.com/' : '/'
+
 }
