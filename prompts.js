@@ -11,6 +11,13 @@ module.exports = [
     type: "confirm",
     message: `是否需要使用 element-ui`,
     default: false
+  },
+
+  {
+    name: 'TypeScript',
+    type: 'confirm',
+    message: '是否使用 TypeScript',
+    default: false
   }
 
 ]
