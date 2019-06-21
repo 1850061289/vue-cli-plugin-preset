@@ -1,4 +1,4 @@
-# vue-preset
+# vue-cli-plugin-preset
 结合vue-cli3的preset搭建基于git repo的前端项目模板
 # 特性
 - 默认安装axios
