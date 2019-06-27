@@ -1,0 +1,19 @@
+{
+  "name": "vue-cli-plugin-preset",
+  "version": "1.0.0",
+  "description": "结合vue-cli3的preset搭建基于git repo的前端项目模板 # 特性 - 默认安装axios - 新建时可选择安装element-ui、vuex - 默认支持路由",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1850061289/vue-cli-plugin-preset.git"
+  },
+  "author": "vivian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1850061289/vue-cli-plugin-preset/issues"
+  },
+  "homepage": "https://github.com/1850061289/vue-cli-plugin-preset#readme"
+}
