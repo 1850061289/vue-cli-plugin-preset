@@ -8,7 +8,6 @@
 # 使用
 
 ```
-npm install -g @vue/cli
 vue create --preset 1850061289/vue-preset my-project
 ```
 # 生成项目结构
