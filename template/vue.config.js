@@ -3,7 +3,7 @@ module.exports = {
     // proxy: {
     // 例子
     // '/wine': {
-    //   target: 'http://alipay.test.wanmengjun.com/',
+    //   target: 'http://xxx.com/',
     //   changeOrigin: true
     // },
     // }
@@ -13,6 +13,6 @@ module.exports = {
   outputDir: "dist_pre",
   assetsDir: "static",
   productionSourceMap: false,
-  publicPath: process.env.VUE_APP_BUILD_MODE === 'PROD' ? 'https://file.kp.wanmengjun.com/' : '/'
+  publicPath: process.env.VUE_APP_BUILD_MODE === 'PROD' ? 'https://xxx.com/' : '/'
 
 }
